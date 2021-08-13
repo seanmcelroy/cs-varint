@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Nullable>enable</Nullable>
+   <LangVersion>8.0</LangVersion>
+        <PackageId>cs-varint</PackageId>
+    <Version>1.0.0</Version>
+    <Owners>seanmcelroy</Owners>
+    <Authors>Sean McElroy</Authors>
+    <Title>cs-varint: Varint helpers that enforce minimal encoding</Title>
+    <Description>
+      This is a C# .NET Core port of the repository https://github.com/multiformats/go-varint
+      Varint helpers that enforce minimal encoding.
+      The purpose of this port is to support future efforts to port go-libp2p to the C# language.
+    </Description>
+    <PackageReleaseNotes>Initial version</PackageReleaseNotes>
+    <Copyright>Copyright 2021 Sean McElroy</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>libp2p multiformats</PackageTags>
+    <RepositoryUrl>https://github.com/seanmcelroy/cs-varint</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+</Project>
